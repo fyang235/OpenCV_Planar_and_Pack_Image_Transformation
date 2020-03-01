@@ -1,0 +1,8 @@
+## convert rgb jpg to bgr planar:  
+
+sh build_main_Jpg2PlanarBGR.sh  
+./Jpg2PlanarBGR srcImage dstImage   
+
+## convert bgr planar to rgb jpg:  
+sh run.sh  
+
