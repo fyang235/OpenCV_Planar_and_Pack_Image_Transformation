@@ -9,8 +9,10 @@
 using namespace cv;
 typedef unsigned char UCHAR;
 
-void planarToJpg(char *bgrPlanarImagePath, cv::Mat &image);
-void readImage(char *imagePath, cv::Mat &img);
-void saveImage(char *imagePath, cv::Mat &img);
+void planarToJpg(const char *bgrPlanarImagePath, cv::Mat &img);
+void readImage(const char *imagePath, cv::Mat &img);
+void saveImage(const char *imagePath, const cv::Mat &img);
+void serializeMat(const char *binaryPath, const cv::Mat &img);
+void deSerializeMat(const char *binaryPath, cv::Mat &img);
 
 #endif
