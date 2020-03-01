@@ -8,4 +8,4 @@ cmake ..
 make
 cd ..
 
-./build/PLANAR2JPG
+./build/src/PLANAR2JPG

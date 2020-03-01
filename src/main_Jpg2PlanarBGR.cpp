@@ -3,6 +3,7 @@
 
 #include "opencv2/imgcodecs/imgcodecs_c.h"
 #include <opencv2/opencv.hpp>
+
 typedef unsigned char U_CHAR;
 
 int main(int argc, char *argv[])

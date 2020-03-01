@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../src/../include/utils.h
+stdio.h
+-
+opencv2/highgui.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/imgcodecs.hpp
+-
+
 /home/yang/Documents/APP/opencv/opencvlib/include/opencv2/calib3d.hpp
 opencv2/core.hpp
 /home/yang/Documents/APP/opencv/opencvlib/include/opencv2/opencv2/core.hpp
@@ -1310,21 +1320,11 @@ opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /home/yang/Documents/APP/opencv/opencvlib/include/opencv2/videostab/opencv2/videostab/log.hpp
 
-/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/main.cpp
+/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/src/main.cpp
 utils.h
-/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/utils.h
+/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/src/utils.h
 
-/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/utils.cpp
+/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/src/utils.cpp
 utils.h
-/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/utils.h
-
-/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/utils.h
-stdio.h
--
-opencv2/highgui.hpp
--
-opencv2/opencv.hpp
--
-opencv2/imgcodecs.hpp
--
+/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/src/utils.h
 

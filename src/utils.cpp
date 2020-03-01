@@ -23,7 +23,7 @@ void planarToJpg(char *bgrPlanarImagePath, cv::Mat &image)
     }
     else
     {
-        printf("Fail to open image file for plot!");
+        printf("Fail to open image file for transformation!");
         exit(1);
     }
     fclose(fp);

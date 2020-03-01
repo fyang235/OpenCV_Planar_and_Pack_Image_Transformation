@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11 -w
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yang/Documents/APP/opencv/opencvlib/include 
+CXX_INCLUDES = -I/home/yang/Documents/Tests/C_and_Cpp_learning/OpenCV/src/../include -I/home/yang/Documents/APP/opencv/opencvlib/include 
 
